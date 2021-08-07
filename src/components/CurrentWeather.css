@@ -1,0 +1,39 @@
+.current-weather {
+    display: flex;
+    background: #fd9a80;
+    border-radius: 7px;
+    padding: 10px;
+    justify-content: space-between;
+    
+}
+.current-weather_content{
+    display: flex;
+    align-items: center;
+}
+.current-weather-temp, .current-weather_description{
+    margin: 0;
+}
+.current-weather-temp{
+    font-size: 42px;
+}
+.current-weather_description{
+    font-size: 16px;
+}
+.current-weather_icon{
+    width: 150px;
+}
+.current-weather_feels-like{
+    margin: 0;
+    font-size: 20px;
+}
+@media (max-width: 460px)  {
+    .current-weather{
+        flex-wrap: wrap;
+    }
+    .current-weather-temp{
+        font-size: 30px;
+    }
+    .current-weather_icon{
+        width: 120px;
+    }
+}
